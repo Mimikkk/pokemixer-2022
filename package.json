@@ -1,5 +1,10 @@
 {
   "name": "pokemixer-2022",
+  "author": {
+    "email": "zdancewicz.daniel@gmail.com",
+    "name": "Daniel Zdancewicz",
+    "url": "www.github.com/Mimikkk"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

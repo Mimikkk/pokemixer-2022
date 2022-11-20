@@ -1,37 +1,27 @@
 {
-  "name": "pokemixer-2022",
+  "name": "solid-course",
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
-    "start": "solid-start start",
-    "test": "vitest run"
+    "start": "solid-start start"
   },
   "type": "module",
   "devDependencies": {
+    "solid-start-node": "^0.2.5",
+    "tailwindcss": "^3.2.4",
+    "tippy.js": "^6.3.7",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.5.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@types/testing-library__jest-dom": "^5.14.5",
     "autoprefixer": "^10.4.13",
-    "axios": "^1.1.3",
-    "daisyui": "^2.41.0",
-    "jsdom": "^20.0.2",
-    "prettier": "^2.7.1",
-    "sass": "^1.56.1",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.19",
+    "rollup": "^3.3.0",
     "solid-js": "^1.6.2",
     "solid-start": "^0.2.5",
-    "solid-start-node": "^0.2.5",
-    "solid-testing-library": "^0.3.0",
-    "typescript": "^4.9.3",
-    "undici": "^5.12.0",
-    "vite": "^3.2.4",
-    "vitest": "^0.25.2"
-  },
-  "prettier": {
-    "printWidth": 120,
-    "tabWidth": 2,
-    "semi": true,
-    "endOfLine": "crlf",
-    "trailingComma": "all"
+    "undici": "^5.12.0"
   }
 }

@@ -6,16 +6,11 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "jsxImportSource": "solid-js",
-    "jsx": "react-jsx",
-    "types": [
-      "vite/client",
-      "@testing-library/jest-dom"
-    ],
+    "jsx": "preserve",
+    "types": ["vite/client"],
     "baseUrl": "./",
     "paths": {
-      "~/*": [
-        "./src/*"
-      ]
+      "~/*": ["./src/*"]
     }
   }
 }

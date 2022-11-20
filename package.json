@@ -1,9 +1,9 @@
 {
-  "name": "solid-course",
+  "name": "pokemixer-2022",
   "scripts": {
-    "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start"
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview"
   },
   "type": "module",
   "devDependencies": {
@@ -11,17 +11,27 @@
     "tailwindcss": "^3.2.4",
     "tippy.js": "^6.3.7",
     "typescript": "^4.9.3",
-    "vite": "^3.2.4"
+    "vite": "^3.2.4",
+    "solid-js": "^1.6.2",
+    "solid-start": "^0.2.5",
+    "prettier": "^2.7.1",
+    "undici": "^5.12.0",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.19",
+    "rollup": "^3.3.0"
   },
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.5.0",
-    "autoprefixer": "^10.4.13",
-    "cssnano": "^5.1.14",
-    "postcss": "^8.4.19",
-    "rollup": "^3.3.0",
-    "solid-js": "^1.6.2",
-    "solid-start": "^0.2.5",
-    "undici": "^5.12.0"
+    "rambda": "^7.4.0",
+    "axios": "^1.1.3"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "semi": true,
+    "endOfLine": "crlf",
+    "trailingComma": "all"
   }
 }

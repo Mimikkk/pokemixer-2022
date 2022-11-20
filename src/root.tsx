@@ -16,7 +16,7 @@ export default function Root() {
   return (
     <html lang="en">
     <Head>
-      <Title>SolidStart - With Vitest</Title>
+      <Title>Pokemixer</Title>
       <Meta charset="utf-8" />
       <Meta name="viewport" content="width=device-width, initial-scale=1" />
       <Meta name="author" content="github.com/Mimikkk" />
